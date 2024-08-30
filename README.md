@@ -8,3 +8,7 @@
 </p>
 
 ## test-agencedemenagement
+# run migration 
+=> php artisan migrate
+# run seeder 
+=> php artisan db:seed --class=RoleSeeder
